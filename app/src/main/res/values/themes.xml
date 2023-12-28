@@ -2,7 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Swoosh" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorPrimaryDark">@color/appColor</item>
+        <item name="colorAccent">@color/white</item>
     </style>
 
     <style name="Theme.Swoosh" parent="Base.Theme.Swoosh" />
