@@ -5,11 +5,6 @@ import android.os.Bundle
 import android.util.Log
 
 open class BaseActivity : AppCompatActivity() {
-
-    companion object {
-        private const val TAG = "LifeCycle"
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d(TAG, "${javaClass.simpleName}, onCreate")
         super.onCreate(savedInstanceState)
