@@ -15,4 +15,5 @@
     <string name="beginner">Beginner</string>
     <string name="baller">Baller</string>
     <string name="finish">FINISH</string>
+    <string name="looking_for_a_league_skill_league_near_you">Looking for a %1$s %2$s league near you…</string>
 </resources>

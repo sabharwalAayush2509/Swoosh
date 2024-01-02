@@ -1,8 +1,9 @@
-package com.example.swoosh
+package com.example.swoosh.controller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.swoosh.utilities.TAG
 
 open class BaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

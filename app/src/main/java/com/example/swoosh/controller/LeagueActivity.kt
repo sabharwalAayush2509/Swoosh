@@ -1,18 +1,19 @@
-package com.example.swoosh
+package com.example.swoosh.controller
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import android.widget.ToggleButton
+import com.example.swoosh.R
+import com.example.swoosh.utilities.EXTRA_LEAGUE
 
 class LeagueActivity : BaseActivity() {
 
     private lateinit var mensLeagueBtn: ToggleButton
     private lateinit var womensLeagueBtn: ToggleButton
     private lateinit var coedLeagueBtn: ToggleButton
-    private lateinit var selectedLeague: String
+    private var selectedLeague = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +22,6 @@ class LeagueActivity : BaseActivity() {
         mensLeagueBtn = findViewById(R.id.mensLeagueBtn)
         womensLeagueBtn = findViewById(R.id.womensLeagueBtn)
         coedLeagueBtn = findViewById(R.id.coedLeagueBtn)
-        selectedLeague = ""
     }
 
     fun onMensClicked(view: View) {
